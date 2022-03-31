@@ -1,0 +1,16 @@
+https://docs.djangoproject.com/en/3.2/intro/tutorial01/
+
+django-admin startproject e_commerce_inventory
+
+
+# run app
+python manage.py runserver
+
+#create a new app
+python manage.py startapp ProductApp
+
+# create db migrations
+python manage.py makemigrations
+
+# migrate db
+python manage.py migrate
